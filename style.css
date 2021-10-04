@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .sign-in {
@@ -22,6 +23,7 @@ body {
 
 .title {
   margin-bottom: 30px;
+  font-size: 50px;
 }
 
 .features {
@@ -30,7 +32,6 @@ body {
 }
 .features > * {
   padding-left: 10px;
-  
 }
 
 .sign-up {
@@ -80,6 +81,7 @@ body {
   border: none;
   background-color: #0077c5;
   color: #fff;
+  border-radius: 5px;
 }
 
 .explanation,
@@ -94,4 +96,35 @@ body {
 footer {
   text-align: center;
   width: 850px;
+  font-weight: 100;
+  font-size: 12px;
+  padding-bottom: 100px;
+}
+
+.frame-header {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.explanation {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+label {
+  font-weight: 300;
+  font-size: 14px;
+}
+.recommended,
+.serious-links > a:link {
+  font-weight: 100;
+  color: #5a5757;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 15px;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid red;
+  box-shadow: 0 0 10px #719ece;
 }
